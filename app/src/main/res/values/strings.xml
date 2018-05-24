@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Inventory App 2 Stage</string>
+
+    //game's category
+    <string name="category_rpg">Role Playing Game</string>
+    <string name="category_simulator">Simulator game</string>
+    <string name="category_1stPerson">1st Person game</string>
+    <string name="category_adventure">Adventure game</string>
+    <string name="category_rts">Real Time Strategy game</string>
+    <string name="category_puzzle">Puzzle Game</string>
+    <string name="category_action">Action game</string>
+    <string name="category_combat">Combat game</string>
+    <string name="category_educational">Educational game</string>
+    <string name="category_unknown">Unknown</string>
+    <string name="category_unknown1">name</string>
+    <string name="category_unknown2">price</string>
+    <string name="category_unknown3">stock</string>
+
+    <string name="selling_icon">selling icon</string>
+    <string name="game_s_name">Game\'s name</string>
+    <string name="game_s_category">Game\'s category</string>
+    <string name="in_stock">In stock</string>
+    <string name="item_info">Item info</string>
+    <string name="price">Price</string>
+    <string name="supplier_info">Supplier info</string>
+    <string name="supplier">Supplier</string>
+    <string name="phone">Phone</string>
+    <string name="e_mail">E-mail</string>
+    <string name="delete">delete</string>
+    <string name="save">save</string>
+    <string name="minus">minus</string>
+    <string name="plus">plus</string>
+    <string name="phone_button">phone button</string>
+    <string name="email_button">email button</string>
+    <string name="name_of_the_game">name of the game</string>
+    <string name="category_of_the_game">category of the game</string>
+    <string name="price_of_the_game">price of the game</string>
+    <string name="supplier_phone_number">supplier phone number</string>
+    <string name="supplier_s_email_address">supplier\'s email address</string>
+    <string name="supplier_s_name">supplier\'s name</string>
+    <string name="insert_dummy_data">insert dummy data</string>
+    <string name="delete_all_entries">delete all entries</string>
+    <string name="intro_info">Database of PC Games is empty now.
+        For adding new item into database, please click on yellow button.</string>
+    <string name="image">image</string>
+
+    <string name="new_game">Add new game data</string>
+    <string name="insert_game_failed">Insertion of new game was not successful.</string>
+    <string name="insert_game_successful">Insertion of new game was successful.</string>
+    <string name="update_game_failed">Update was not successful.</string>
+    <string name="update_game_successful">Update was successful.</string>
+    <string name="delete_game_failed">Delete was not successful.</string>
+    <string name="delete_game_successful">Game deleted.</string>
+    <string name="editor_activity_title_edit_game">Edit game</string>
+
+
+    <string name="discard">Discard changes</string>
+    <string name="keep_edit">Continue with editing</string>
+    <string name="unsaved_changes">Discard your changes and quit editing?</string>
+    <string name="delete_msg">Delete this item?</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="email_body1">Dear</string>
+    <string name="email_body2">I would like to order</string>
+    <string name="email_body3"> game from your offer.</string>
+    <string name="email_body4">Could you tell me when</string>
+    <string name="email_body5">game will be available again?</string>
+    <string name="example_game_name_">Diablo</string>
+    <string name="example_supplier">Blizzard</string>
+    <string name="example_supplier_phone">123 456 789</string>
+    <string name="example_supplier_email">bizzard@blizzar.com</string>
+    <string name="msg_rows_deteted">rows deleted from games database</string>
+    <string name="quantity_cannot_be_empty">Quantity cannot be empty.</string>
+    <string name="quantity_cannot_be_less_0">Quantity cannot be less than 0.</string>
+    <string name="question_game_price">What is the price of the game?</string>
+    <string name="question_game_quantity">How many pcs are in stock?</string>
+    <string name="question_game_supplier">What is the mane of game\'s supplier?</string>
+    <string name="question_game_supplier_phone">What is supplier\'s phone number?</string>
+    <string name="question_game_supplier_email">What is supplier\'s email address?</string>
+    <string name="email_order_of">Order of:</string>
+    <string name="email_game">game</string>
+    <string name="fill_blank">Fill the blanks first, please!</string>
+    <string name="currency_symbol">$</string>
+
+
+</resources>

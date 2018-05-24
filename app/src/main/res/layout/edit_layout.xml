@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/dim16">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dim4"
+            android:gravity="center"
+            android:text="@string/item_info"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim2"
+            android:background="@color/colorPrimaryDark" />
+
+        <LinearLayout style="@style/linearLayoutStyle">
+
+            <TextView
+                style="@style/textViewInfo"
+                android:text="@string/game_s_name" />
+
+            <EditText
+                android:id="@+id/edit_game_name"
+                style="@style/textViewInfo2"
+                android:hint="@string/name_of_the_game"
+                android:inputType="text"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                tools:text="Name" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linearLayoutStyle">
+
+            <TextView
+                style="@style/textViewInfo"
+                android:text="@string/game_s_category" />
+
+            <Spinner
+                android:id="@+id/spinner_game_category"
+                style="@style/textViewInfo3"
+                android:layout_height="@dimen/dim40"
+                android:hint="@string/category_of_the_game"
+                android:inputType="text"
+                android:spinnerMode="dropdown"
+                tools:text="Category" />
+
+        </LinearLayout>
+
+
+        <LinearLayout style="@style/linearLayoutStyle">
+
+            <TextView
+                style="@style/textViewInfo"
+                android:text="@string/price" />
+
+            <EditText
+                android:id="@+id/edit_game_price"
+                style="@style/textViewInfo3"
+                android:gravity="center_horizontal"
+                android:hint="@string/price_of_the_game"
+                android:inputType="numberDecimal"
+                tools:text="Price" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/currency_symbol"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="@android:color/black" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linearLayoutStyle">
+
+            <TextView
+                style="@style/textViewInfo"
+                android:text="@string/in_stock" />
+
+            <ImageButton
+                android:id="@+id/edit_quantity_decrease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/minus"
+                android:src="@drawable/ic_minus_circle_outline_black_18dp" />
+
+            <EditText
+                android:id="@+id/edit_game_quantity"
+                style="@style/textViewInfo3"
+                android:gravity="center_horizontal"
+                tools:text="22" />
+
+            <ImageButton
+                android:id="@+id/edit_quantity_increase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/plus"
+                android:src="@drawable/ic_plus_circle_outline_black_18dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim4"
+            android:background="@color/colorPrimaryDark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Menu" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dim1"
+
+            android:gravity="center"
+            android:text="@string/supplier_info"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dim2"
+            android:background="@color/colorPrimaryDark" />
+
+        <LinearLayout style="@style/linearLayoutStyle">
+
+            <TextView
+                style="@style/textViewInfo"
+                android:text="@string/supplier" />
+
+            <EditText
+                android:id="@+id/edit_supplier"
+                style="@style/textViewInfo3"
+                android:hint="@string/supplier_s_name"
+                android:inputType="text"
+                tools:text="Name" />
+
+            <Space
+                android:layout_width="@dimen/dim40"
+                android:layout_height="@dimen/dim40" />
+
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linearLayoutStyle">
+
+            <TextView
+                style="@style/textViewInfo"
+                android:text="@string/phone" />
+
+            <EditText
+                android:id="@+id/edit_phone"
+                style="@style/textViewInfo3"
+                android:hint="@string/supplier_phone_number"
+                android:inputType="phone"
+                tools:text="+1-234-567-890" />
+
+            <ImageButton
+                android:id="@+id/phoneButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/phone_button"
+                android:src="@drawable/ic_phone_black_24dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout style="@style/linearLayoutStyle">
+
+            <TextView
+                style="@style/textViewInfo"
+                android:text="@string/e_mail" />
+
+            <EditText
+                android:id="@+id/edit_email"
+                style="@style/textViewInfo3"
+                android:hint="@string/supplier_s_email_address"
+                android:inputType="textEmailAddress"
+                tools:text="email address" />
+
+            <ImageButton
+                android:id="@+id/emailButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/email_button"
+                android:src="@drawable/ic_at_black_24dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

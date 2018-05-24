@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- These are the options displayed in the gender drop-down Spinner -->
+    <string-array name="array_game_category">
+        <item>@string/category_rpg</item>
+        <item>@string/category_simulator</item>
+        <item>@string/category_1stPerson</item>
+        <item>@string/category_adventure</item>
+        <item>@string/category_rts</item>
+        <item>@string/category_puzzle</item>
+        <item>@string/category_action</item>
+        <item>@string/category_combat</item>
+        <item>@string/category_educational</item>
+        <item>@string/category_unknown</item>
+    </string-array>
+</resources>
